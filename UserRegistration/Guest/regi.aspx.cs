@@ -9,6 +9,7 @@ namespace UserRegistration.Guest
 {
     public partial class regi : System.Web.UI.Page
     {
+        User ba = new User();
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -16,12 +17,8 @@ namespace UserRegistration.Guest
 
         protected void submit_Click(object sender, EventArgs e)
         {
-            ba.UserName = name.Text;
-            ba.UserPhone = phone.Text;
-            ba.UserEmail = email.Text;
-            ba.UserStatus = "0";
-            ba.PassWord = pass.Text;
-            int i = ba.RegInsert();
+            string sql = "insert into employee values('" + txtname.Text + "','" + txtdesignation.Text + "','" + txtsalary.Text + "')";
+            int i = db.exenonquery(sql);
             // int n = ba.logInsert();
             if (i == 1)
             {

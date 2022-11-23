@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 
@@ -9,7 +12,7 @@ namespace UserRegistration
     {
         public SqlConnection con = new SqlConnection();
         SqlCommand cmd = new SqlCommand();
-        public DAL()
+        public User()
         {
             string conn = ConfigurationManager.ConnectionStrings["rose"].ConnectionString;
             con = new SqlConnection(conn);
@@ -23,7 +26,7 @@ namespace UserRegistration
             }
             return con;
         }
-        public int DataInsert(BAL.BAL obj)
+        public int DataInsert (string sql)
         {
             string qry = "insert into registration values('" + obj.UserName + "','" + obj.UserPhone + "','" + obj.UserEmail + "','" + obj.UserStatus + "');select @@IDENTITY";
             SqlCommand cmd = new SqlCommand(qry, GetCon());
