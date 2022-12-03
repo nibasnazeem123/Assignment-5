@@ -52,7 +52,6 @@ C:\Users\nibas\Documents\Assignmet 5\UserRegistrationForm\bin\roslyn\VBCSCompile
 C:\Users\nibas\Documents\Assignmet 5\UserRegistrationForm\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\nibas\Documents\Assignmet 5\UserRegistrationForm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\nibas\Documents\Assignmet 5\UserRegistrationForm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\nibas\Documents\Assignmet 5\UserRegistrationForm\obj\Debug\UserRegistrationForm.csproj.AssemblyReference.cache
 C:\Users\nibas\Documents\Assignmet 5\UserRegistrationForm\obj\Debug\UserRegistrationForm.csproj.CoreCompileInputs.cache
 C:\Users\nibas\Documents\Assignmet 5\UserRegistrationForm\obj\Debug\UserRegistrationForm.csproj.CopyComplete
 C:\Users\nibas\Documents\Assignmet 5\UserRegistrationForm\obj\Debug\UserRegistrationForm.dll
